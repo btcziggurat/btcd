@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The btcsuite developers
+// Copyright (c) 2015-2016 The btcziggurat developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -12,10 +12,10 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/database"
-	"github.com/btcsuite/btcd/database/ffldb"
-	"github.com/btcsuite/btcutil"
+	"github.com/btcziggurat/btcd/chaincfg"
+	"github.com/btcziggurat/btcd/database"
+	"github.com/btcziggurat/btcd/database/ffldb"
+	"github.com/btcziggurat/btcutil"
 )
 
 // dbType is the database type name for this driver.

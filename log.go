@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2017 The btcsuite developers
+// Copyright (c) 2013-2017 The btcziggurat developers
 // Copyright (c) 2017 The Decred developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
@@ -10,19 +10,19 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/btcsuite/btcd/addrmgr"
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/blockchain/indexers"
-	"github.com/btcsuite/btcd/connmgr"
-	"github.com/btcsuite/btcd/database"
-	"github.com/btcsuite/btcd/mempool"
-	"github.com/btcsuite/btcd/mining"
-	"github.com/btcsuite/btcd/mining/cpuminer"
-	"github.com/btcsuite/btcd/netsync"
-	"github.com/btcsuite/btcd/peer"
-	"github.com/btcsuite/btcd/txscript"
+	"github.com/btcziggurat/btcd/addrmgr"
+	"github.com/btcziggurat/btcd/blockchain"
+	"github.com/btcziggurat/btcd/blockchain/indexers"
+	"github.com/btcziggurat/btcd/connmgr"
+	"github.com/btcziggurat/btcd/database"
+	"github.com/btcziggurat/btcd/mempool"
+	"github.com/btcziggurat/btcd/mining"
+	"github.com/btcziggurat/btcd/mining/cpuminer"
+	"github.com/btcziggurat/btcd/netsync"
+	"github.com/btcziggurat/btcd/peer"
+	"github.com/btcziggurat/btcd/txscript"
 
-	"github.com/btcsuite/btclog"
+	"github.com/btcziggurat/btclog"
 	"github.com/jrick/logrotate/rotator"
 )
 

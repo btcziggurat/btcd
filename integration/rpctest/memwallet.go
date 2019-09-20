@@ -1,4 +1,4 @@
-// Copyright (c) 2016-2017 The btcsuite developers
+// Copyright (c) 2016-2017 The btcziggurat developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -10,15 +10,15 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/btcec"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/rpcclient"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcutil/hdkeychain"
+	"github.com/btcziggurat/btcd/blockchain"
+	"github.com/btcziggurat/btcd/btcec"
+	"github.com/btcziggurat/btcd/chaincfg"
+	"github.com/btcziggurat/btcd/chaincfg/chainhash"
+	"github.com/btcziggurat/btcd/rpcclient"
+	"github.com/btcziggurat/btcd/txscript"
+	"github.com/btcziggurat/btcd/wire"
+	"github.com/btcziggurat/btcutil"
+	"github.com/btcziggurat/btcutil/hdkeychain"
 )
 
 var (

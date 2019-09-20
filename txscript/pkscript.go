@@ -5,10 +5,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/btcsuite/btcd/btcec"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/btcziggurat/btcd/btcec"
+	"github.com/btcziggurat/btcd/chaincfg"
+	"github.com/btcziggurat/btcd/wire"
+	"github.com/btcziggurat/btcutil"
 	"golang.org/x/crypto/ripemd160"
 )
 

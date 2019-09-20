@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017 The btcsuite developers
+// Copyright (c) 2014-2017 The btcziggurat developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -9,9 +9,9 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/btcsuite/btcd/btcjson"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcutil"
+	"github.com/btcziggurat/btcd/btcjson"
+	"github.com/btcziggurat/btcd/chaincfg/chainhash"
+	"github.com/btcziggurat/btcutil"
 )
 
 // FutureGenerateResult is a future promise to deliver the result of a
