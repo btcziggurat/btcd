@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The btcziggurat developers
+// Copyright (c) 2015-2016 The btcsuite developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -9,10 +9,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/btcsuite/btclog"
 	"github.com/btcziggurat/btcd/chaincfg/chainhash"
 	"github.com/btcziggurat/btcd/txscript"
 	"github.com/btcziggurat/btcd/wire"
-	"github.com/btcziggurat/btclog"
 )
 
 const (

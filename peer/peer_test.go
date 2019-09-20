@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The btcziggurat developers
+// Copyright (c) 2015-2016 The btcsuite developers
 // Copyright (c) 2016-2018 The Decred developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
@@ -13,11 +13,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/btcsuite/go-socks/socks"
 	"github.com/btcziggurat/btcd/chaincfg"
 	"github.com/btcziggurat/btcd/chaincfg/chainhash"
 	"github.com/btcziggurat/btcd/peer"
 	"github.com/btcziggurat/btcd/wire"
-	"github.com/btcziggurat/go-socks/socks"
 )
 
 // conn mocks a network connection by implementing the net.Conn interface.  It

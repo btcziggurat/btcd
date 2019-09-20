@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The btcziggurat developers
+// Copyright (c) 2015-2016 The btcsuite developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -14,18 +14,18 @@ import (
 	"sort"
 	"sync"
 
+	"github.com/btcsuite/goleveldb/leveldb"
+	"github.com/btcsuite/goleveldb/leveldb/comparer"
+	ldberrors "github.com/btcsuite/goleveldb/leveldb/errors"
+	"github.com/btcsuite/goleveldb/leveldb/filter"
+	"github.com/btcsuite/goleveldb/leveldb/iterator"
+	"github.com/btcsuite/goleveldb/leveldb/opt"
+	"github.com/btcsuite/goleveldb/leveldb/util"
 	"github.com/btcziggurat/btcd/chaincfg/chainhash"
 	"github.com/btcziggurat/btcd/database"
 	"github.com/btcziggurat/btcd/database/internal/treap"
 	"github.com/btcziggurat/btcd/wire"
 	"github.com/btcziggurat/btcutil"
-	"github.com/btcziggurat/goleveldb/leveldb"
-	"github.com/btcziggurat/goleveldb/leveldb/comparer"
-	ldberrors "github.com/btcziggurat/goleveldb/leveldb/errors"
-	"github.com/btcziggurat/goleveldb/leveldb/filter"
-	"github.com/btcziggurat/goleveldb/leveldb/iterator"
-	"github.com/btcziggurat/goleveldb/leveldb/opt"
-	"github.com/btcziggurat/goleveldb/leveldb/util"
 )
 
 const (

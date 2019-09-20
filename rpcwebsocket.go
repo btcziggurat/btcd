@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2017 The btcziggurat developers
+// Copyright (c) 2013-2017 The btcsuite developers
 // Copyright (c) 2015-2017 The Decred developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
@@ -20,6 +20,7 @@ import (
 	"sync"
 	"time"
 
+	"github.com/btcsuite/websocket"
 	"github.com/btcziggurat/btcd/blockchain"
 	"github.com/btcziggurat/btcd/btcjson"
 	"github.com/btcziggurat/btcd/chaincfg"
@@ -28,7 +29,6 @@ import (
 	"github.com/btcziggurat/btcd/txscript"
 	"github.com/btcziggurat/btcd/wire"
 	"github.com/btcziggurat/btcutil"
-	"github.com/btcziggurat/websocket"
 	"golang.org/x/crypto/ripemd160"
 )
 

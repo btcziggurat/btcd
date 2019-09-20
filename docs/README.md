@@ -19,7 +19,7 @@
 5. [Developer Resources](#DeveloperResources)
     1. [Code Contribution Guidelines](#ContributionGuidelines)
     2. [JSON-RPC Reference](#JSONRPCReference)
-    3. [The btcziggurat Bitcoin-related Go Packages](#GoPackages)
+    3. [The btcsuite Bitcoin-related Go Packages](#GoPackages)
 
 <a name="About" />
 
@@ -50,8 +50,8 @@ wallet functionality and this was a very intentional design decision.  See the
 blog entry [here](https://blog.conformal.com/btcd-not-your-moms-bitcoin-daemon)
 for more details.  This means you can't actually make or receive payments
 directly with btcd.  That functionality is provided by the
-[btcwallet](https://github.com/btcziggurat/btcwallet) and
-[Paymetheus](https://github.com/btcziggurat/Paymetheus) (Windows-only) projects
+[btcwallet](https://github.com/btcsuite/btcwallet) and
+[Paymetheus](https://github.com/btcsuite/Paymetheus) (Windows-only) projects
 which are both under active development.
 
 <a name="GettingStarted" />
@@ -226,7 +226,7 @@ configuration necessary, however, there is an optional method to use a
 **3.1 Wallet**
 
 btcd was intentionally developed without an integrated wallet for security
-reasons.  Please see [btcwallet](https://github.com/btcziggurat/btcwallet) for more
+reasons.  Please see [btcwallet](https://github.com/btcsuite/btcwallet) for more
 information.
 
 
@@ -264,7 +264,7 @@ information.
 
 <a name="GoPackages" />
 
-* The btcziggurat Bitcoin-related Go Packages:
+* The btcsuite Bitcoin-related Go Packages:
     * [btcrpcclient](https://github.com/btcziggurat/btcd/tree/master/rpcclient) - Implements a
       robust and easy to use Websocket-enabled Bitcoin JSON-RPC client
     * [btcjson](https://github.com/btcziggurat/btcd/tree/master/btcjson) - Provides an extensive API

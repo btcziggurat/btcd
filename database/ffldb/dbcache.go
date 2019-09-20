@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The btcziggurat developers
+// Copyright (c) 2015-2016 The btcsuite developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -10,10 +10,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/btcsuite/goleveldb/leveldb"
+	"github.com/btcsuite/goleveldb/leveldb/iterator"
+	"github.com/btcsuite/goleveldb/leveldb/util"
 	"github.com/btcziggurat/btcd/database/internal/treap"
-	"github.com/btcziggurat/goleveldb/leveldb"
-	"github.com/btcziggurat/goleveldb/leveldb/iterator"
-	"github.com/btcziggurat/goleveldb/leveldb/util"
 )
 
 const (

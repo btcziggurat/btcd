@@ -1,13 +1,13 @@
-// Copyright (c) 2015-2016 The btcziggurat developers
+// Copyright (c) 2015-2016 The btcsuite developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
 package ffldb
 
 import (
+	"github.com/btcsuite/goleveldb/leveldb/iterator"
+	"github.com/btcsuite/goleveldb/leveldb/util"
 	"github.com/btcziggurat/btcd/database/internal/treap"
-	"github.com/btcziggurat/goleveldb/leveldb/iterator"
-	"github.com/btcziggurat/goleveldb/leveldb/util"
 )
 
 // ldbTreapIter wraps a treap iterator to provide the additional functionality

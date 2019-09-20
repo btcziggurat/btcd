@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The btcziggurat developers
+// Copyright (c) 2015-2016 The btcsuite developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -10,8 +10,8 @@ import (
 	"runtime"
 	"strings"
 
+	"github.com/btcsuite/btclog"
 	"github.com/btcziggurat/btcd/database"
-	"github.com/btcziggurat/btclog"
 	flags "github.com/jessevdk/go-flags"
 )
 

@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2017 The btcziggurat developers
+// Copyright (c) 2013-2017 The btcsuite developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -20,6 +20,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/btcsuite/go-socks/socks"
 	"github.com/btcziggurat/btcd/blockchain"
 	"github.com/btcziggurat/btcd/chaincfg"
 	"github.com/btcziggurat/btcd/chaincfg/chainhash"
@@ -29,7 +30,6 @@ import (
 	"github.com/btcziggurat/btcd/mempool"
 	"github.com/btcziggurat/btcd/peer"
 	"github.com/btcziggurat/btcutil"
-	"github.com/btcziggurat/go-socks/socks"
 	flags "github.com/jessevdk/go-flags"
 )
 

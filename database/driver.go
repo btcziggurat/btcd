@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The btcziggurat developers
+// Copyright (c) 2015-2016 The btcsuite developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -7,7 +7,7 @@ package database
 import (
 	"fmt"
 
-	"github.com/btcziggurat/btclog"
+	"github.com/btcsuite/btclog"
 )
 
 // Driver defines a structure for backend drivers to use when they registered

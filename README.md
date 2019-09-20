@@ -29,8 +29,8 @@ wallet functionality and this was a very intentional design decision.  See the
 blog entry [here](https://blog.conformal.com/btcd-not-your-moms-bitcoin-daemon)
 for more details.  This means you can't actually make or receive payments
 directly with btcd.  That functionality is provided by the
-[btcwallet](https://github.com/btcziggurat/btcwallet) and
-[Paymetheus](https://github.com/btcziggurat/Paymetheus) (Windows-only) projects
+[btcwallet](https://github.com/btcsuite/btcwallet) and
+[Paymetheus](https://github.com/btcsuite/Paymetheus) (Windows-only) projects
 which are both under active development.
 
 ## Requirements
@@ -121,7 +121,7 @@ The documentation is a work-in-progress.  It is located in the [docs](https://gi
 ## GPG Verification Key
 
 All official release tags are signed by Conformal so users can ensure the code
-has not been tampered with and is coming from the btcziggurat developers.  To
+has not been tampered with and is coming from the btcsuite developers.  To
 verify the signature perform the following:
 
 - Download the Conformal public key:

@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017 The btcziggurat developers
+// Copyright (c) 2014-2017 The btcsuite developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -23,10 +23,10 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/btcsuite/go-socks/socks"
+	"github.com/btcsuite/websocket"
 	"github.com/btcziggurat/btcd/btcjson"
 	"github.com/btcziggurat/btcd/chaincfg"
-	"github.com/btcziggurat/go-socks/socks"
-	"github.com/btcziggurat/websocket"
 )
 
 var (

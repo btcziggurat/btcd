@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2017 The btcziggurat developers
+// Copyright (c) 2013-2017 The btcsuite developers
 // Copyright (c) 2017 The Decred developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
@@ -22,7 +22,7 @@ import (
 	"github.com/btcziggurat/btcd/peer"
 	"github.com/btcziggurat/btcd/txscript"
 
-	"github.com/btcziggurat/btclog"
+	"github.com/btcsuite/btclog"
 	"github.com/jrick/logrotate/rotator"
 )
 

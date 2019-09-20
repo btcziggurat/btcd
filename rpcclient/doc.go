@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017 The btcziggurat developers
+// Copyright (c) 2014-2017 The btcsuite developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -10,7 +10,7 @@ Overview
 This client provides a robust and easy to use client for interfacing with a
 Bitcoin RPC server that uses a btcd/bitcoin core compatible Bitcoin JSON-RPC
 API.  This client has been tested with btcd (https://github.com/btcziggurat/btcd),
-btcwallet (https://github.com/btcziggurat/btcwallet), and
+btcwallet (https://github.com/btcsuite/btcwallet), and
 bitcoin core (https://github.com/bitcoin).
 
 In addition to the compatible standard HTTP POST JSON-RPC API, btcd and

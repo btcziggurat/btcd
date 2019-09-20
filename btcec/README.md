@@ -1,7 +1,7 @@
 btcec
 =====
 
-[![Build Status](https://travis-ci.org/btcziggurat/btcd.png?branch=master)](https://travis-ci.org/btcziggurat/btcec)
+[![Build Status](https://travis-ci.org/btcziggurat/btcd.png?branch=master)](https://travis-ci.org/btcsuite/btcec)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 [![GoDoc](https://godoc.org/github.com/btcziggurat/btcd/btcec?status.png)](http://godoc.org/github.com/btcziggurat/btcd/btcec)
 
@@ -10,7 +10,7 @@ Bitcoin (secp256k1 only for now). It is designed so that it may be used with the
 standard crypto/ecdsa packages provided with go.  A comprehensive suite of test
 is provided to ensure proper functionality.  Package btcec was originally based
 on work from ThePiachu which is licensed under the same terms as Go, but it has
-signficantly diverged since then.  The btcziggurat developers original is licensed
+signficantly diverged since then.  The btcsuite developers original is licensed
 under the liberal ISC license.
 
 Although this package was primarily written for btcd, it has intentionally been
@@ -44,7 +44,7 @@ $ go get -u github.com/btcziggurat/btcd/btcec
 ## GPG Verification Key
 
 All official release tags are signed by Conformal so users can ensure the code
-has not been tampered with and is coming from the btcziggurat developers.  To
+has not been tampered with and is coming from the btcsuite developers.  To
 verify the signature perform the following:
 
 - Download the public key from the Conformal website at
